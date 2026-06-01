@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Optimization and Machine Learning Lab banner</title>
+  <desc id="desc">Abstract optimization landscape with learning trajectories, graph nodes, and computational grid motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="0.52" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <radialGradient id="basin" cx="50%" cy="55%" r="60%">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.28"/>
+      <stop offset="0.48" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="360" fill="url(#bg)"/>
+  <circle cx="910" cy="180" r="220" fill="url(#basin)" filter="url(#soft)"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 282 C220 130 366 112 512 198 C662 289 790 310 946 188 C1066 94 1196 82 1322 142" stroke="#e0f2fe" stroke-opacity="0.3" stroke-width="2"/>
+    <path d="M100 250 C246 142 380 142 510 210 C664 291 804 286 952 174 C1072 84 1196 80 1300 130" stroke="#67e8f9" stroke-opacity="0.55" stroke-width="3"/>
+    <path d="M132 214 C278 164 394 168 508 226 C662 305 820 260 958 158 C1066 78 1180 78 1276 124" stroke="url(#curve)" stroke-width="5"/>
+    <path d="M166 188 C310 184 426 196 540 244 C672 300 814 244 930 150" stroke="#a7f3d0" stroke-opacity="0.38" stroke-width="2"/>
+  </g>
+
+  <g fill="none" stroke="#cbd5e1" stroke-opacity="0.28" stroke-width="1">
+    <path d="M146 298 C288 206 398 206 540 260 C692 318 838 246 974 146 C1096 56 1218 68 1320 116"/>
+    <path d="M184 318 C320 238 426 234 552 276 C704 326 850 246 1000 132 C1116 44 1232 62 1334 102"/>
+    <path d="M102 252 C252 106 404 102 548 186 C686 266 808 300 952 204 C1084 116 1212 108 1326 164"/>
+    <path d="M84 220 C238 92 410 86 566 164 C700 232 820 282 952 222 C1096 156 1232 142 1340 194"/>
+  </g>
+
+  <g fill="none" stroke="#e2e8f0" stroke-opacity="0.42" stroke-width="2">
+    <path d="M94 148 C156 104 230 104 294 146 C358 188 434 188 498 142"/>
+    <path d="M112 188 C176 148 242 150 302 184 C370 224 440 220 510 174"/>
+    <path d="M132 230 C198 202 258 204 326 232 C390 258 452 252 522 214"/>
+  </g>
+  <g fill="#bae6fd" opacity="0.86">
+    <circle cx="94" cy="148" r="7"/>
+    <circle cx="294" cy="146" r="7"/>
+    <circle cx="498" cy="142" r="7"/>
+    <circle cx="112" cy="188" r="6"/>
+    <circle cx="302" cy="184" r="6"/>
+    <circle cx="510" cy="174" r="6"/>
+    <circle cx="132" cy="230" r="5"/>
+    <circle cx="326" cy="232" r="5"/>
+    <circle cx="522" cy="214" r="5"/>
+  </g>
+
+  <g stroke="#38bdf8" stroke-width="2" stroke-opacity="0.28">
+    <path d="M1060 62 V300"/>
+    <path d="M1120 52 V310"/>
+    <path d="M1180 50 V312"/>
+    <path d="M1240 68 V292"/>
+    <path d="M1012 110 H1326"/>
+    <path d="M1006 170 H1332"/>
+    <path d="M1018 230 H1318"/>
+  </g>
+
+  <g fill="#f8fafc" stroke="#7dd3fc" stroke-width="3">
+    <circle cx="935" cy="152" r="9"/>
+    <circle cx="1014" cy="108" r="7"/>
+    <circle cx="1084" cy="176" r="8"/>
+    <circle cx="1168" cy="118" r="7"/>
+    <circle cx="1236" cy="184" r="8"/>
+    <circle cx="1118" cy="244" r="7"/>
+    <circle cx="1290" cy="132" r="6"/>
+  </g>
+  <g fill="none" stroke="#bae6fd" stroke-width="2" stroke-opacity="0.72">
+    <path d="M935 152 L1014 108 L1084 176 L1168 118 L1236 184 L1118 244 L1084 176"/>
+    <path d="M1014 108 L1168 118 L1290 132 L1236 184"/>
+    <path d="M935 152 L1084 176 L1118 244"/>
+  </g>
+
+  <g transform="translate(104 74)" fill="none" stroke-linecap="round">
+    <path d="M0 110 C78 18 188 18 268 110 C344 198 456 202 538 112" stroke="#f8fafc" stroke-opacity="0.18" stroke-width="42"/>
+    <path d="M0 110 C78 18 188 18 268 110 C344 198 456 202 538 112" stroke="#38bdf8" stroke-opacity="0.82" stroke-width="8"/>
+    <path d="M4 146 C82 72 176 72 252 142 C338 218 458 218 548 132" stroke="#a7f3d0" stroke-opacity="0.72" stroke-width="4"/>
+  </g>
+</svg>
