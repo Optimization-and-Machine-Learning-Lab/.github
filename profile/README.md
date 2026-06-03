@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Optimization-and-Machine-Learning-Lab/.github/main/profile/assets/oml-lab-title-landscape.png" alt="Glowing 3D optimization landscape with a trajectory descending into a loss basin" width="100%" />
+  <img src="https://raw.githubusercontent.com/Optimization-and-Machine-Learning-Lab/.github/main/profile/assets/oml-lab-title-landscape-ml-left-3x1.png" alt="Machine learning graph and glowing 3D optimization landscape with a trajectory descending into a loss basin" width="100%" />
 </p>
 
 <h1 align="center">Optimization and Machine Learning Lab</h1>
